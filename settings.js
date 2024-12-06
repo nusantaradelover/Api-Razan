@@ -14,7 +14,7 @@ require("dotenv").config();
 
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
-creator = "乂𝙍𝙖𝙯𝙖𝙣乂"; // Nama
+creator = "乂Nusantara乂"; // Nama
 port = 8080; //port host
 LimitApikey = 200; // Limit Apikey default
 
@@ -30,7 +30,7 @@ servicesmtp = "Zoho"; //Ada gmail ada sendinblue ikut masing2 limit gmail 500 li
 sendemail = process.env.sendemail; //Email SMTP
 fromsendemail = process.env.fromsendemail; // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
 sendpwmail = process.env.sendpwmail; // Password Email SMTP
-domain = "api.rivqi.my.id"; // domain website tanpa http or https
+domain = "api.nusantara.my.id"; // domain website tanpa http or https
 
 //_______________________ ┏  Apikey  ┓ _______________________\\
 
